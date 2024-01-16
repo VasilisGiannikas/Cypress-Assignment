@@ -8,6 +8,7 @@ module.exports = defineConfig({
 
     baseUrl:'https://ebepirus.natech.gr/el/Account/UserLogin',
     specPattern:'cypress/integration/**/*.js',
+    waitForAnimations: true,
     defaultCommandTimeout:20000,
     reporter:'mochawesome',
     reporterOptions: {
@@ -22,8 +23,8 @@ module.exports = defineConfig({
     projectId: "Cypress-Assignment"
   },
   retries: {
-    runMode: 2,
-    openMode: 2
+    runMode: 0,
+    openMode: 0
 
   },
 });
