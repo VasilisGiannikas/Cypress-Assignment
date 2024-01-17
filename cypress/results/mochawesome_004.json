@@ -1,0 +1,164 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 4,
+    "passes": 4,
+    "pending": 0,
+    "failures": 0,
+    "start": "2024-01-17T17:00:49.474Z",
+    "end": "2024-01-17T17:01:04.170Z",
+    "duration": 14696,
+    "testsRegistered": 4,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "0b9e4edf-ceb0-4ffe-8ce4-acff04ae5783",
+      "title": "",
+      "fullFile": "cypress\\integration\\InvalidLogin.spec.js",
+      "file": "cypress\\integration\\InvalidLogin.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "795cdc66-2060-44cf-9c34-4070f52dad0b",
+          "title": "Invalid Login Tests",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Try log in without username and password",
+              "fullTitle": "Invalid Login Tests Try log in without username and password",
+              "timedOut": null,
+              "duration": 3191,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "LoginPage.InvalidSigninUserPassMiss();",
+              "err": {},
+              "uuid": "8b42e777-c6d9-48ab-a95c-21d2294df670",
+              "parentUUID": "795cdc66-2060-44cf-9c34-4070f52dad0b",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Try log in with wrong username and wrong password",
+              "fullTitle": "Invalid Login Tests Try log in with wrong username and wrong password",
+              "timedOut": null,
+              "duration": 3386,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "LoginPage.InvalidSigninUserPassWrong();",
+              "err": {},
+              "uuid": "8b3e02a8-bf13-4178-8408-92f3d272ad6b",
+              "parentUUID": "795cdc66-2060-44cf-9c34-4070f52dad0b",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Try log in with wrong password",
+              "fullTitle": "Invalid Login Tests Try log in with wrong password",
+              "timedOut": null,
+              "duration": 4741,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "LoginPage.InvalidSigninPassWrong();",
+              "err": {},
+              "uuid": "7b3c9188-8b2a-474b-8b99-25aa5b176197",
+              "parentUUID": "795cdc66-2060-44cf-9c34-4070f52dad0b",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Try log in with wrong username",
+              "fullTitle": "Invalid Login Tests Try log in with wrong username",
+              "timedOut": null,
+              "duration": 3236,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "LoginPage.InvalidSigninUserWrong();",
+              "err": {},
+              "uuid": "9d63e221-5c3d-44f5-ae23-2a5f111ff8ae",
+              "parentUUID": "795cdc66-2060-44cf-9c34-4070f52dad0b",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "8b42e777-c6d9-48ab-a95c-21d2294df670",
+            "8b3e02a8-bf13-4178-8408-92f3d272ad6b",
+            "7b3c9188-8b2a-474b-8b99-25aa5b176197",
+            "9d63e221-5c3d-44f5-ae23-2a5f111ff8ae"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 14554,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "embeddedScreenshots": true,
+        "reportDir": "cypress/results",
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "reportFileName": "Report"
+      },
+      "version": "6.2.0"
+    }
+  }
+}

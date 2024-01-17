@@ -1,0 +1,131 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 1,
+    "pending": 0,
+    "failures": 1,
+    "start": "2024-01-17T16:56:05.661Z",
+    "end": "2024-01-17T16:57:23.616Z",
+    "duration": 77955,
+    "testsRegistered": 2,
+    "passPercent": 50,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "8361bce7-f8ea-4ae2-bd4f-f273fad74691",
+      "title": "",
+      "fullFile": "cypress\\integration\\Transaction.spec.js",
+      "file": "cypress\\integration\\Transaction.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "89353a83-8f3e-4d55-a5ca-29714ec687f2",
+          "title": "metafores Test",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Metafores se Logariasmo M",
+              "fullTitle": "metafores Test Metafores se Logariasmo M",
+              "timedOut": null,
+              "duration": 34183,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "Transactions.TransactionsClick();\nTransactions.MetaforesClick();\nTransactions.MetaforesLogariasmoM();\nTransactions.Transactionfrmmetome();",
+              "err": {},
+              "uuid": "ac1c7dfa-2161-4d54-bba5-de9b0a42bcf1",
+              "parentUUID": "89353a83-8f3e-4d55-a5ca-29714ec687f2",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Metafores se Logariasmo M apothikeusi prototipo",
+              "fullTitle": "metafores Test Metafores se Logariasmo M apothikeusi prototipo",
+              "timedOut": null,
+              "duration": 20725,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "Transactions.TransactionsClick();\nTransactions.MetaforesClick();\nTransactions.MetaforesLogariasmoM();\nTransactions.Prototypesave();",
+              "err": {
+                "message": "SyntaxError: The following error originated from your application code, not from Cypress.\n\n  > Unexpected token '<', \"\r\n<!DOCTYPE \"... is not valid JSON\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.\n\nhttps://on.cypress.io/uncaught-exception-from-application",
+                "estack": "SyntaxError: The following error originated from your application code, not from Cypress.\n\n  > Unexpected token '<', \"\r\n<!DOCTYPE \"... is not valid JSON\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n    at Function.parse [as parseJSON] (<anonymous>)\n    at Object.success (https://ebepirus.natech.gr/el/TransferMoney/ToMyAccount:3017:29)\n    at c (https://ebepirus.natech.gr/Scripts/jquery-3.6.3.min.js:2:28599)\n    at Object.fireWith [as resolveWith] (https://ebepirus.natech.gr/Scripts/jquery-3.6.3.min.js:2:29344)\n    at l (https://ebepirus.natech.gr/Scripts/jquery-3.6.3.min.js:2:80328)\n    at XMLHttpRequest.<anonymous> (https://ebepirus.natech.gr/Scripts/jquery-3.6.3.min.js:2:82782)",
+                "diff": null
+              },
+              "uuid": "e7b567f8-34df-4bd6-9cde-39752191b1c6",
+              "parentUUID": "89353a83-8f3e-4d55-a5ca-29714ec687f2",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "ac1c7dfa-2161-4d54-bba5-de9b0a42bcf1"
+          ],
+          "failures": [
+            "e7b567f8-34df-4bd6-9cde-39752191b1c6"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 54908,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "embeddedScreenshots": true,
+        "reportDir": "cypress/results",
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "reportFileName": "Report"
+      },
+      "version": "6.2.0"
+    }
+  }
+}

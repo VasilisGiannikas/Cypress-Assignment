@@ -46,4 +46,4 @@ for (let i = 0; i < split.length; i++) {
 if (error) {
     throw new Error(`Run has failures, please check the detailed report`);
 }
-//runs with the command node cypress-test-launcher --browser chrome --suite1
+//runs with the command node cypress-test-launcher --browser chrome --suite actual name of the suite

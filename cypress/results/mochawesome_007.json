@@ -1,0 +1,107 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2024-01-17T17:01:52.497Z",
+    "end": "2024-01-17T17:02:14.760Z",
+    "duration": 22263,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "76884096-6c09-4c95-b2fa-4bc56124a950",
+      "title": "",
+      "fullFile": "cypress\\integration\\LogOut.spec.js",
+      "file": "cypress\\integration\\LogOut.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "4c80cf98-5909-49ea-84c0-f14876614cca",
+          "title": "Logout Test",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Successfully logs out",
+              "fullTitle": "Logout Test Successfully logs out",
+              "timedOut": null,
+              "duration": 22238,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "LoginPage.ValidSignin();\nLogout.Logout();",
+              "err": {},
+              "uuid": "fe5ab447-ce68-4840-b356-974953b67ead",
+              "parentUUID": "4c80cf98-5909-49ea-84c0-f14876614cca",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "fe5ab447-ce68-4840-b356-974953b67ead"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 22238,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "embeddedScreenshots": true,
+        "reportDir": "cypress/results",
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "reportFileName": "Report"
+      },
+      "version": "6.2.0"
+    }
+  }
+}

@@ -1,0 +1,728 @@
+{
+  "stats": {
+    "suites": 9,
+    "tests": 17,
+    "passes": 16,
+    "pending": 0,
+    "failures": 1,
+    "testsRegistered": 17,
+    "passPercent": 94.11764705882354,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false,
+    "start": "2024-01-17T16:56:05.661Z",
+    "end": "2024-01-17T17:02:30.866Z",
+    "duration": 385205
+  },
+  "results": [
+    {
+      "uuid": "7b43fc3c-c9ae-4d94-8936-fa40baeacb32",
+      "title": "",
+      "fullFile": "cypress\\integration\\Accounts.spec.js",
+      "file": "cypress\\integration\\Accounts.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "0c76cc66-5e96-491b-9539-a00de745580e",
+          "title": "Accounts test",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Successfully goes to accounts and accounts are visible in both Tamieutirio and Opseos",
+              "fullTitle": "Accounts test Successfully goes to accounts and accounts are visible in both Tamieutirio and Opseos",
+              "timedOut": null,
+              "duration": 19546,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "Deposits.AccountTamieutirioVisible();\nDeposits.AccountOpseosclick();\nDeposits.AccountOpseosVisible();",
+              "err": {},
+              "uuid": "77554c5a-9fa8-4924-a507-9a6631696fbb",
+              "parentUUID": "0c76cc66-5e96-491b-9539-a00de745580e",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Tamieutirio copy to clipboard and settings",
+              "fullTitle": "Accounts test Tamieutirio copy to clipboard and settings",
+              "timedOut": null,
+              "duration": 34497,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "Deposits.TamieutirioClick();\nDeposits.Copytoclipbard();\nDeposits.accountSettings();\nDeposits.Colorcheck();\nDeposits.Namecheck();\nDeposits.ContinueClick();\nDeposits.depositsmenuclick();\nDeposits.depositsAccounts();\nDeposits.ValidateNameAndColor();\nDeposits.accountSettings();\nDeposits.ChangeBackNameColor();\nDeposits.ContinueClick();\nDeposits.depositsmenuclick();\nDeposits.depositsAccounts();\nDeposits.AccountTamieutirioVisible();",
+              "err": {},
+              "uuid": "63134fbf-e97f-4471-90e2-595960d7da71",
+              "parentUUID": "0c76cc66-5e96-491b-9539-a00de745580e",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Opseos copy to clipboard and settings",
+              "fullTitle": "Accounts test Opseos copy to clipboard and settings",
+              "timedOut": null,
+              "duration": 45300,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "Deposits.AccountOpseosclick();\nDeposits.CopytoclipbardOpseos();\nDeposits.accountSettingsOpseos();\nDeposits.Colorcheck();\nDeposits.NamecheckOPSEOS();\nDeposits.ContinueClick();\nDeposits.depositsmenuclick();\nDeposits.depositsAccounts();\nDeposits.AccountOpseosclick();\nDeposits.ValidateNameAndColor();\nDeposits.accountSettingsOpseos();\nDeposits.ChangeBackNameColorOpseos();\nDeposits.ContinueClick();\nDeposits.depositsmenuclick();\nDeposits.depositsAccounts();\nDeposits.AccountOpseosclick();\nDeposits.AccountOpseosVisible();",
+              "err": {},
+              "uuid": "8982f226-f301-4f27-adb2-ae45ef5de1cf",
+              "parentUUID": "0c76cc66-5e96-491b-9539-a00de745580e",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Account Tamieutirio setting",
+              "fullTitle": "Accounts test Account Tamieutirio setting",
+              "timedOut": null,
+              "duration": 32254,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "Deposits.TamieutirioClick();\nDeposits.TamieutirioAccountClick();\nDeposits.ClickMore();\nDeposits.KlimakesEpitokiou();\nDeposits.Dikaiouxoi();\nDeposits.VevaiwsitirisisAccount();\nDeposits.ValidateMonthAnalisis();\nDeposits.ExcelDownload();\nDeposits.PdfDownload();\nDeposits.Print();\nDeposits.ValidateTransactions();\nDeposits.SinallagesAnazitisi();\nDeposits.ValidateTransactions();\nDeposits.ClickRefreshMonthlyAnalisis();",
+              "err": {},
+              "uuid": "3b079709-7d81-4a2a-8309-c4419ca20283",
+              "parentUUID": "0c76cc66-5e96-491b-9539-a00de745580e",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "77554c5a-9fa8-4924-a507-9a6631696fbb",
+            "63134fbf-e97f-4471-90e2-595960d7da71",
+            "8982f226-f301-4f27-adb2-ae45ef5de1cf",
+            "3b079709-7d81-4a2a-8309-c4419ca20283"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 131597,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "17872bcc-695e-4179-ab59-43bd87a27bfc",
+      "title": "",
+      "fullFile": "cypress\\integration\\ForgotPasswordpage.spec.js",
+      "file": "cypress\\integration\\ForgotPasswordpage.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "6d8947e1-b796-4471-8cad-e901a82f3e80",
+          "title": "Forgot Password Page",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Forgot Password Page Individual",
+              "fullTitle": "Forgot Password Page Forgot Password Page Individual",
+              "timedOut": null,
+              "duration": 16069,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "let ignoreUncaughtException = false;\nCypress.on('uncaught:exception', (err, runnable) => {\n  if (ignoreUncaughtException && err.message.includes('Syntax error, unrecognized expression: #')) {\n    // Ignore only the specific exception\n    return false;\n  }\n  // Throw all other errors\n  throw err;\n});\n// Interactions before the surname field\nForgotUserPass.Forgotpass();\nForgotUserPass.Individual();\nForgotUserPass.Username();\nForgotUserPass.Name();\n// Enable ignoring uncaught exceptions for the surname interaction\nignoreUncaughtException = true;\n// Interaction with the surname field\nForgotUserPass.Surname();\nForgotUserPass.UserTaxId();\nForgotUserPass.UserID();\nForgotUserPass.Address();\nForgotUserPass.AddressNumber();\nForgotUserPass.TK();\nForgotUserPass.BirthDay();\nForgotUserPass.Birthmonth();\nForgotUserPass.Birthyear();\nForgotUserPass.Countryphonecode();\nForgotUserPass.IndividualPhonenumber();\nForgotUserPass.ContinueIndividual();",
+              "err": {},
+              "uuid": "94121890-dea5-48c5-b36d-c76b096d19ec",
+              "parentUUID": "6d8947e1-b796-4471-8cad-e901a82f3e80",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Forgot Password Page Individual",
+              "fullTitle": "Forgot Password Page Forgot Password Page Individual",
+              "timedOut": null,
+              "duration": 14184,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "let ignoreUncaughtException = false;\nCypress.on('uncaught:exception', (err, runnable) => {\n  if (ignoreUncaughtException && err.message.includes('Syntax error, unrecognized expression: #')) {\n    // Ignore only the specific exception\n    return false;\n  }\n  // Throw all other errors\n  throw err;\n});\nignoreUncaughtException = true;\nForgotUserPass.Forgotpass();\nForgotUserPass.legalentity();\nForgotUserPass.Username();\nForgotUserPass.CompanyName();\nForgotUserPass.CompanyTaxId();\nForgotUserPass.Gemi();\nForgotUserPass.LegalAddress();\nForgotUserPass.LegalAddressNumber();\nForgotUserPass.LegalTK();\nForgotUserPass.LegalBirthDay();\nForgotUserPass.LegalBirthmonth();\nForgotUserPass.LegalBirthyear();\nForgotUserPass.LegalCountryphonecode();\nForgotUserPass.legalPhonenumber();\nForgotUserPass.LegalContinue();",
+              "err": {},
+              "uuid": "3290cc1c-6fd2-45d0-a78f-c48962b6f77b",
+              "parentUUID": "6d8947e1-b796-4471-8cad-e901a82f3e80",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "94121890-dea5-48c5-b36d-c76b096d19ec",
+            "3290cc1c-6fd2-45d0-a78f-c48962b6f77b"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 30253,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "e934751e-225f-44b8-88e9-d4f5b94f0f9e",
+      "title": "",
+      "fullFile": "cypress\\integration\\ForgotUserpage.spec.js",
+      "file": "cypress\\integration\\ForgotUserpage.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "59503a23-a01c-4606-b528-3e6d98119c00",
+          "title": "Forgot UserName Page",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Forgot UserName Page",
+              "fullTitle": "Forgot UserName Page Forgot UserName Page",
+              "timedOut": null,
+              "duration": 8082,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "ForgotUserPass.Forgotusername();\nForgotUserPass.Taxid();\nForgotUserPass.Countrycode();\nForgotUserPass.Phonenumber();\nForgotUserPass.Continue();",
+              "err": {},
+              "uuid": "78fedc22-3822-49ae-b5d1-5a703b9eed8a",
+              "parentUUID": "59503a23-a01c-4606-b528-3e6d98119c00",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "78fedc22-3822-49ae-b5d1-5a703b9eed8a"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 8082,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "0b9e4edf-ceb0-4ffe-8ce4-acff04ae5783",
+      "title": "",
+      "fullFile": "cypress\\integration\\InvalidLogin.spec.js",
+      "file": "cypress\\integration\\InvalidLogin.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "795cdc66-2060-44cf-9c34-4070f52dad0b",
+          "title": "Invalid Login Tests",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Try log in without username and password",
+              "fullTitle": "Invalid Login Tests Try log in without username and password",
+              "timedOut": null,
+              "duration": 3191,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "LoginPage.InvalidSigninUserPassMiss();",
+              "err": {},
+              "uuid": "8b42e777-c6d9-48ab-a95c-21d2294df670",
+              "parentUUID": "795cdc66-2060-44cf-9c34-4070f52dad0b",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Try log in with wrong username and wrong password",
+              "fullTitle": "Invalid Login Tests Try log in with wrong username and wrong password",
+              "timedOut": null,
+              "duration": 3386,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "LoginPage.InvalidSigninUserPassWrong();",
+              "err": {},
+              "uuid": "8b3e02a8-bf13-4178-8408-92f3d272ad6b",
+              "parentUUID": "795cdc66-2060-44cf-9c34-4070f52dad0b",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Try log in with wrong password",
+              "fullTitle": "Invalid Login Tests Try log in with wrong password",
+              "timedOut": null,
+              "duration": 4741,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "LoginPage.InvalidSigninPassWrong();",
+              "err": {},
+              "uuid": "7b3c9188-8b2a-474b-8b99-25aa5b176197",
+              "parentUUID": "795cdc66-2060-44cf-9c34-4070f52dad0b",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Try log in with wrong username",
+              "fullTitle": "Invalid Login Tests Try log in with wrong username",
+              "timedOut": null,
+              "duration": 3236,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "LoginPage.InvalidSigninUserWrong();",
+              "err": {},
+              "uuid": "9d63e221-5c3d-44f5-ae23-2a5f111ff8ae",
+              "parentUUID": "795cdc66-2060-44cf-9c34-4070f52dad0b",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "8b42e777-c6d9-48ab-a95c-21d2294df670",
+            "8b3e02a8-bf13-4178-8408-92f3d272ad6b",
+            "7b3c9188-8b2a-474b-8b99-25aa5b176197",
+            "9d63e221-5c3d-44f5-ae23-2a5f111ff8ae"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 14554,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "e2f3723e-e134-4c70-87fe-7b8c83874c5b",
+      "title": "",
+      "fullFile": "cypress\\integration\\LockAccount.spec.js",
+      "file": "cypress\\integration\\LockAccount.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "2f3a9d88-cd62-49b7-9fe1-e0f6f108bc21",
+          "title": "Lock Account Page",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Lock Account Page",
+              "fullTitle": "Lock Account Page Lock Account Page",
+              "timedOut": null,
+              "duration": 7137,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "LockUnlockAccount.Lockaccount();\nLockUnlockAccount.Taxid();\nLockUnlockAccount.Username();\nLockUnlockAccount.Countryphonecode();\nLockUnlockAccount.Phonenumber();\nLockUnlockAccount.ContinueBlockAccount();",
+              "err": {},
+              "uuid": "ce609732-655e-4672-9aaa-ee81e3d08ef2",
+              "parentUUID": "2f3a9d88-cd62-49b7-9fe1-e0f6f108bc21",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "ce609732-655e-4672-9aaa-ee81e3d08ef2"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 7137,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "922170ed-05e4-47ea-a206-1d59c7e30a7e",
+      "title": "",
+      "fullFile": "cypress\\integration\\LogIn.spec.js",
+      "file": "cypress\\integration\\LogIn.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "a3a08ea8-d4a7-4e21-8bfc-6d6f5f83a62d",
+          "title": "Login Test",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Successfully logs in with username and password",
+              "fullTitle": "Login Test Successfully logs in with username and password",
+              "timedOut": null,
+              "duration": 16450,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "LoginPage.ValidSignin();",
+              "err": {},
+              "uuid": "93b6da48-eda3-41e8-9162-63a8d553fab3",
+              "parentUUID": "a3a08ea8-d4a7-4e21-8bfc-6d6f5f83a62d",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "93b6da48-eda3-41e8-9162-63a8d553fab3"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 16450,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "76884096-6c09-4c95-b2fa-4bc56124a950",
+      "title": "",
+      "fullFile": "cypress\\integration\\LogOut.spec.js",
+      "file": "cypress\\integration\\LogOut.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "4c80cf98-5909-49ea-84c0-f14876614cca",
+          "title": "Logout Test",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Successfully logs out",
+              "fullTitle": "Logout Test Successfully logs out",
+              "timedOut": null,
+              "duration": 22238,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "LoginPage.ValidSignin();\nLogout.Logout();",
+              "err": {},
+              "uuid": "fe5ab447-ce68-4840-b356-974953b67ead",
+              "parentUUID": "4c80cf98-5909-49ea-84c0-f14876614cca",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "fe5ab447-ce68-4840-b356-974953b67ead"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 22238,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "068688d9-25a8-4056-9175-49a963d3a638",
+      "title": "",
+      "fullFile": "cypress\\integration\\UnlockAccountPage.spec.js",
+      "file": "cypress\\integration\\UnlockAccountPage.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "526e9961-0215-4067-81ab-4d47e31df1b3",
+          "title": "UnLock Account Page",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "unLock Account Page",
+              "fullTitle": "UnLock Account Page unLock Account Page",
+              "timedOut": null,
+              "duration": 7840,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "LockUnlockAccount.UnLockaccount();\nLockUnlockAccount.Taxid();\nLockUnlockAccount.Username();\nLockUnlockAccount.Countryphonecode();\nLockUnlockAccount.Phonenumber();\nLockUnlockAccount.ContinueUnBlockAccount();",
+              "err": {},
+              "uuid": "624139e7-5878-4e44-8f27-c16c002b3b20",
+              "parentUUID": "526e9961-0215-4067-81ab-4d47e31df1b3",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "624139e7-5878-4e44-8f27-c16c002b3b20"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 7840,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "8361bce7-f8ea-4ae2-bd4f-f273fad74691",
+      "title": "",
+      "fullFile": "cypress\\integration\\Transaction.spec.js",
+      "file": "cypress\\integration\\Transaction.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "89353a83-8f3e-4d55-a5ca-29714ec687f2",
+          "title": "metafores Test",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Metafores se Logariasmo M",
+              "fullTitle": "metafores Test Metafores se Logariasmo M",
+              "timedOut": null,
+              "duration": 34183,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "Transactions.TransactionsClick();\nTransactions.MetaforesClick();\nTransactions.MetaforesLogariasmoM();\nTransactions.Transactionfrmmetome();",
+              "err": {},
+              "uuid": "ac1c7dfa-2161-4d54-bba5-de9b0a42bcf1",
+              "parentUUID": "89353a83-8f3e-4d55-a5ca-29714ec687f2",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Metafores se Logariasmo M apothikeusi prototipo",
+              "fullTitle": "metafores Test Metafores se Logariasmo M apothikeusi prototipo",
+              "timedOut": null,
+              "duration": 20725,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "Transactions.TransactionsClick();\nTransactions.MetaforesClick();\nTransactions.MetaforesLogariasmoM();\nTransactions.Prototypesave();",
+              "err": {
+                "message": "SyntaxError: The following error originated from your application code, not from Cypress.\n\n  > Unexpected token '<', \"\r\n<!DOCTYPE \"... is not valid JSON\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.\n\nhttps://on.cypress.io/uncaught-exception-from-application",
+                "estack": "SyntaxError: The following error originated from your application code, not from Cypress.\n\n  > Unexpected token '<', \"\r\n<!DOCTYPE \"... is not valid JSON\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n    at Function.parse [as parseJSON] (<anonymous>)\n    at Object.success (https://ebepirus.natech.gr/el/TransferMoney/ToMyAccount:3017:29)\n    at c (https://ebepirus.natech.gr/Scripts/jquery-3.6.3.min.js:2:28599)\n    at Object.fireWith [as resolveWith] (https://ebepirus.natech.gr/Scripts/jquery-3.6.3.min.js:2:29344)\n    at l (https://ebepirus.natech.gr/Scripts/jquery-3.6.3.min.js:2:80328)\n    at XMLHttpRequest.<anonymous> (https://ebepirus.natech.gr/Scripts/jquery-3.6.3.min.js:2:82782)",
+                "diff": null
+              },
+              "uuid": "e7b567f8-34df-4bd6-9cde-39752191b1c6",
+              "parentUUID": "89353a83-8f3e-4d55-a5ca-29714ec687f2",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "ac1c7dfa-2161-4d54-bba5-de9b0a42bcf1"
+          ],
+          "failures": [
+            "e7b567f8-34df-4bd6-9cde-39752191b1c6"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 54908,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "embeddedScreenshots": true,
+        "reportDir": "cypress/results",
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "reportFileName": "Report"
+      },
+      "version": "6.2.0"
+    }
+  }
+}

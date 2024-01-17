@@ -7,7 +7,7 @@ import transactions from "../utilities/Transactions";
 
 
 
-describe('Logout Test', () => {
+describe('metafores Test', () => {
 
     const LoginPage = new loginpage
     const Transactions = new transactions
@@ -18,7 +18,7 @@ describe('Logout Test', () => {
         
         
     });
-    it.only('Metafores se Logariasmo M', () => {
+    it('Metafores se Logariasmo M', () => {
         Transactions.TransactionsClick()
         Transactions.MetaforesClick()
         Transactions.MetaforesLogariasmoM()

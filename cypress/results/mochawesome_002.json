@@ -1,0 +1,126 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2024-01-17T16:59:54.361Z",
+    "end": "2024-01-17T17:00:24.841Z",
+    "duration": 30480,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "17872bcc-695e-4179-ab59-43bd87a27bfc",
+      "title": "",
+      "fullFile": "cypress\\integration\\ForgotPasswordpage.spec.js",
+      "file": "cypress\\integration\\ForgotPasswordpage.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "6d8947e1-b796-4471-8cad-e901a82f3e80",
+          "title": "Forgot Password Page",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Forgot Password Page Individual",
+              "fullTitle": "Forgot Password Page Forgot Password Page Individual",
+              "timedOut": null,
+              "duration": 16069,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "let ignoreUncaughtException = false;\nCypress.on('uncaught:exception', (err, runnable) => {\n  if (ignoreUncaughtException && err.message.includes('Syntax error, unrecognized expression: #')) {\n    // Ignore only the specific exception\n    return false;\n  }\n  // Throw all other errors\n  throw err;\n});\n// Interactions before the surname field\nForgotUserPass.Forgotpass();\nForgotUserPass.Individual();\nForgotUserPass.Username();\nForgotUserPass.Name();\n// Enable ignoring uncaught exceptions for the surname interaction\nignoreUncaughtException = true;\n// Interaction with the surname field\nForgotUserPass.Surname();\nForgotUserPass.UserTaxId();\nForgotUserPass.UserID();\nForgotUserPass.Address();\nForgotUserPass.AddressNumber();\nForgotUserPass.TK();\nForgotUserPass.BirthDay();\nForgotUserPass.Birthmonth();\nForgotUserPass.Birthyear();\nForgotUserPass.Countryphonecode();\nForgotUserPass.IndividualPhonenumber();\nForgotUserPass.ContinueIndividual();",
+              "err": {},
+              "uuid": "94121890-dea5-48c5-b36d-c76b096d19ec",
+              "parentUUID": "6d8947e1-b796-4471-8cad-e901a82f3e80",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Forgot Password Page Individual",
+              "fullTitle": "Forgot Password Page Forgot Password Page Individual",
+              "timedOut": null,
+              "duration": 14184,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "let ignoreUncaughtException = false;\nCypress.on('uncaught:exception', (err, runnable) => {\n  if (ignoreUncaughtException && err.message.includes('Syntax error, unrecognized expression: #')) {\n    // Ignore only the specific exception\n    return false;\n  }\n  // Throw all other errors\n  throw err;\n});\nignoreUncaughtException = true;\nForgotUserPass.Forgotpass();\nForgotUserPass.legalentity();\nForgotUserPass.Username();\nForgotUserPass.CompanyName();\nForgotUserPass.CompanyTaxId();\nForgotUserPass.Gemi();\nForgotUserPass.LegalAddress();\nForgotUserPass.LegalAddressNumber();\nForgotUserPass.LegalTK();\nForgotUserPass.LegalBirthDay();\nForgotUserPass.LegalBirthmonth();\nForgotUserPass.LegalBirthyear();\nForgotUserPass.LegalCountryphonecode();\nForgotUserPass.legalPhonenumber();\nForgotUserPass.LegalContinue();",
+              "err": {},
+              "uuid": "3290cc1c-6fd2-45d0-a78f-c48962b6f77b",
+              "parentUUID": "6d8947e1-b796-4471-8cad-e901a82f3e80",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "94121890-dea5-48c5-b36d-c76b096d19ec",
+            "3290cc1c-6fd2-45d0-a78f-c48962b6f77b"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 30253,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "embeddedScreenshots": true,
+        "reportDir": "cypress/results",
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "reportFileName": "Report"
+      },
+      "version": "6.2.0"
+    }
+  }
+}

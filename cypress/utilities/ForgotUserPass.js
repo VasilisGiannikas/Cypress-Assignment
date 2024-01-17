@@ -315,7 +315,7 @@ class forgotuserpass {
         })
     }
     ContinueIndividual(){
-        cy.get('#forgot-username-step-2-continue').click()
+        cy.get('#reissue-password-individual-step-2-continue').click()
         cy.get('.text-error').should('contain', 'Τα στοιχεία δεν μπορούν να επαληθευτούν!')
     }
 

@@ -45,7 +45,7 @@ describe('Forgot Password Page', () => {
     });
     
     
-    it.only('Forgot Password Page Individual', () => {
+    it('Forgot Password Page Individual', () => {
         let ignoreUncaughtException = false;
 
         Cypress.on('uncaught:exception', (err, runnable) => {
