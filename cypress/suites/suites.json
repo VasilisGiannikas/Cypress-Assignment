@@ -1,0 +1,8 @@
+{
+    "suites": [
+        {
+            "name": "suite1",
+            "specList": "cypress/integration/Transaction.spec.js,cypress/integration/Accounts.spec.js,cypress/integration/ForgotPasswordpage.spec.js,cypress/integration/ForgotUserpage.spec.js,cypress/integration/InvalidLogin.spec.js,cypress/integration/LockAccount.spec.js,cypress/integration/LogIn.spec.js,cypress/integration/LogOut.spec.js,cypress/integration/UnlockAccountPage.spec.js"
+        }
+    ]
+}
